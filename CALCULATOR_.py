@@ -20,7 +20,7 @@ def calculate():
         entry_num.insert(tk.END,"Error")
 
 root=tk.Tk()
-root.title("Calculator")
+root.title("The Calculator App")
 root.geometry('250x250')
 entry_num=tk.Entry(root,width=20,font=('Arial',14),justify='right')
 digits='7894561230'
